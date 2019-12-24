@@ -6,22 +6,38 @@
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>Document</title>
 </head>
-<body>
+<body style="background-color: black;">
     <div style="text-align: center;">
     <iframe src="https://open.spotify.com/embed/playlist/6pAGyd2fBhdWqM6sDnAyhh" 
-    width="600" height="680" frameborder="0" allowtransparency="true" allow="encrypted-media"></iframe>
+    width="600" height="400" frameborder="0" allowtransparency="true" allow="encrypted-media"></iframe>
     </div>
-    <table>
-        <tr>
-          <th>January <dialog open>This is an open dialog window</dialog></th>
-          <th>February</th>
-          <th>March</th>
-        </tr>
-        <tr>
-          <td>31</td>
-          <td>28</td>
-          <td>31</td>
-        </tr>
-        </table>
+    <div style="text-align: center;">
+        <button class="button button2">SIM</button>
+        <button class="button button2">não, pois eu sou um cuzão</button>
+    </div>
 </body>
+<style>
+.button {
+  background-color: #4CAF50; /* Green */
+  border: none;
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  cursor: pointer;
+  -webkit-transition-duration: 0.4s; /* Safari */
+  transition-duration: 0.4s;
+}
+
+.button1 {
+  box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
+}
+
+.button2:hover {
+  box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24),0 17px 50px 0 rgba(0,0,0,0.19);
+}
+}</style>
 </html>
